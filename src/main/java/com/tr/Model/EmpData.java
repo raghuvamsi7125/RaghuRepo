@@ -15,6 +15,7 @@ public class EmpData {
 	private String name;
 	@Column(length=20)
 	private String Addrs;
+	private String surname;
 	@Override
 	public String toString() {
 		return "EmpData [id=" + id + ", name=" + name + ", Addrs=" + Addrs + "]";
